@@ -1,0 +1,49 @@
+#banner_image {
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+
+#banner-content {
+	position: relative;
+	padding-top: 6%;
+	padding-bottom: 6%;
+    margin: auto;
+	margin-top: 12%;
+	background-color: rgba(0,0,0,0.7);
+    max-width: 660px;
+    border-radius: 5px;
+}
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+.row.fix {
+  display: flex;
+  flex-wrap: wrap;
+  width:100%; /*not always necessary*/
+}
+.navbar .container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer {
+    position: fixed;
+    margin-top:20px;
+    padding: 10px;
+    background-color: #101010;
+    color: #9d9d9d;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+}
+
+.row a:hover{
+    text-decoration: none;
+}
